@@ -362,6 +362,46 @@ thead{
     background-color: #f25c54;
 }
 
+.container-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.area{
+    display: flex;
+    background-color: #00b4d8;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 5px black;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.child1{
+    width: 15vh;
+}
+
+.child2{
+    width: 30vh;
+}
+
+.child3{
+    width: 10vw;
+}
+
+.child4{
+    width: 5vw;
+}
+
+.child5{
+    width: 25vw;
+
+}
+
 
 
 
