@@ -448,6 +448,31 @@ thead{
     color: white;
 }
 
+.btnlogin{
+    color: #03e9f4;
+    border: 1.5px solid #03e9f4;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 6em;
+    padding: 1em;
+    background: none;
+
+}
+
+.btnlogin a{
+    color: white;
+    text-decoration: none;
+}
+
+.btnlogin:hover{
+    background-color: #03e9f4;
+    color: #23233b;
+    border-radius: 0.2em;
+    transition: 0.3s;
+}
+
+
 
 
 
