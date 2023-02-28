@@ -21,7 +21,7 @@
                 <li><a href="table.html">Admin</a></li>
                 <li><a href="contact.html">Contacto</a></li>
                 <li><a href="flexbox.html">Flexbox</a></li>
-                <li><a class="li-selected" href="login.html">Acceder</a></li>
+                <li><a id="accederMenu" class="li-selected" href="login.html">Acceder</a></li>
             </ul>
         </nav>
     </header>
@@ -34,8 +34,14 @@
             <div class="area child4">4</div>
             <div class="area child5">5</div>
         </div>
-    </main>
-
-    
+    </main>    
 </body>
+<script>
+    if(localStorage.getItem('session') === 'true'){
+            accederMenu = document.getElementById('accederMenu')
+            console.log(accederMenu)
+            accederMenu.href = '/logout.html'
+            accederMenu.innerHTML = 'Salir'          
+    }
+</script>
 </html>
